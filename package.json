@@ -1,0 +1,22 @@
+{
+  "name": "mr.yesindeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtgee6/Mr.YesIndeed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurtgee6/Mr.YesIndeed/issues"
+  },
+  "homepage": "https://github.com/kurtgee6/Mr.YesIndeed#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
