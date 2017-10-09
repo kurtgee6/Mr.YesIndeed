@@ -1,0 +1,15 @@
+
+nav {
+    height: 35px;    
+    line-height: 35px;
+}
+
+.nav-wrapper {
+    background-color: #00004c;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul, li {
+    margin-right: 50px;
+}
+

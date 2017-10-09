@@ -8,13 +8,13 @@ class navbar extends Component {
             <div>
                 <nav>
                     <div className="nav-wrapper">
-                        <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">photo/resume</a></li>
-                            <li><a href="#">production shots</a></li>
-                            <li><a href="#">videos</a></li>
-                            <li><a href="#">contact</a></li>
-                            <li><a href="#">acting out!</a></li>
+                        <ul id="nav-mobile">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Production Shots</a></li>
+                            <li><a href="#">Voiceovers</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Acting Out!</a></li>
                         </ul>
                     </div>
                 </nav>
