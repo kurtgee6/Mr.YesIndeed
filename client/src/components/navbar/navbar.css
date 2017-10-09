@@ -5,11 +5,14 @@ nav {
 }
 
 .nav-wrapper {
-    background-color: #00004c;
+    background-color: #F8F8F8;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-ul, li {
-    margin-right: 50px;
+ul li {
+    margin-right: 50px;    
 }
 
+nav ul li a {
+    color: #00004c;    
+}
