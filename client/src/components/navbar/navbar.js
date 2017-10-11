@@ -10,7 +10,7 @@ class navbar extends Component {
                     <div className="nav-wrapper">
                         <ul id="nav-mobile">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="/about">About</a></li>
                             <li><a href="#">Production Shots</a></li>
                             <li><a href="#">Voiceovers</a></li>
                             <li><a href="#">Contact</a></li>
