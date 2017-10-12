@@ -5,7 +5,9 @@ const About = () =>
   <div>
 
         <div class="row">
-            <div class="col s6"> - PERSONAL - </div>
+            <div class="col s6">
+                {/* <img alt="Curtis Glenn" src={"../images/pictureFour.jpg"} /> */}
+            </div>
             <div class="col s6">
                 <p>
                     Curtis Glenn was born in Tachikawa, Japan on October 11, 1971.  
