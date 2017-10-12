@@ -6,26 +6,9 @@
     background-size: cover;
 }
 
-/* 
-#yesIndeed {
-   padding: 10px; 
-   margin-top: 50px;
-   margin-left: 820px;
-   height: 150px;
-   width: 200px;
-   font-family: 'Josefin Sans', sans-serif;
-   border: 1px dashed black;
-} */
-
-/* button turned into a bubble */
-/* #yesIndeed {
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
-    border-bottom-left-radius: 8px;
-}
-
-#yesIndeed {
+.page-footer, .container, #footerCopyright {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 18px;
+    color: black;
     background-color: #F8F8F8;
-    font-size: 20px;
-} */
+}
