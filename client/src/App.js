@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/navbar/navbar";
@@ -17,9 +17,8 @@ const App = () =>
     <div>
       <Navbar />
       <Wrapper>
-      <BodyImage />
         <Route exact path="/about" component={About} />
-        <Route exact path="/acting-out" component={Acting} />
+        <Route exact path="/acting" component={Acting} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/production" component={Production} />
         <Route exact path="/voiceovers" component={Voiceovers} />
