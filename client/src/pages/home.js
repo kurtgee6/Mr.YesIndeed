@@ -1,8 +1,7 @@
 import React from "react";
 
 const Home = () =>
-  <div>
-      <h1>This is the home page</h1>
-  </div>;
-
+<div>
+        <img id="picture" alt="Curtis Glenn"  style={{  alignSelf: 'center', height:'100%' ,width: '100%'}} src={ require('../images/pictureFour.jpg') }  />
+</div>;
 export default Home;
