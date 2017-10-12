@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/navbar/navbar";
-import BodyImage from "./components/bodyImage/bodyImage";
 import Wrapper from "./components/wrapper/wrapper";
 import About from "./pages/about";
 import Acting from "./pages/acting-out";
