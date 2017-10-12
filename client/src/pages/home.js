@@ -18,7 +18,7 @@ const Home = () =>
         </div>
         <div id="footerCopyright" className="footer-copyright">
             <div className="container">
-            © 2017 Curtis Glenn
+            © 2017 - CurtisGlenn
             </div>
         </div>
   </footer>
