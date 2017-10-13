@@ -1,8 +1,9 @@
 import React from "react";
+import "./contact.css";
 
 const Contact = () =>
   <div>
-      <h1>This is the contact page</h1>
+     <div id="main-picture"></div>
   </div>;
 
 export default Contact;

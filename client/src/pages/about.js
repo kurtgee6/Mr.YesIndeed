@@ -34,11 +34,6 @@ const About = () =>
                     His family name became known for it’s Martial Arts background. The whole family (Woodrow, Martha, Jaron, and Curtis) 
                     were black belts and skilled in the Japanese form of Shi Toh Ryu and taught as a family.  
                     Curtis quickly gained fame as he began to sweep throughout Cleveland County winning numerous karate tournaments.  
-                    {/* In his teenage years, Curtis began using his skills for fight choreography for several events including the theatrical play THE WIZ.  
-                    Those years became sweeter when he fell in love with a young lady name Demeca W. Brewer.  Both were accepted at UNC Chapel Hill.  
-                    Curtis and Demeca moved to Chapel Hill, NC.  Later, this couple became Curtis and Demeca Glenn.  
-                    As the years past, they had two daughters (Kipany Glenn, Bahtia Glenn).  Not only did Curtis and Demeca teach karate, but also dance.  
-                    As a couple (and family) the Glenn traditions were carried out as in the former time in Shelby.   */}
                 </p>
             </div>
         </div>
@@ -47,7 +42,7 @@ const About = () =>
 
         <div class="row">
             <div class="col s6">
-                <img className="pixabay" alt="Curtis Glenn" src={require("../images/martial-arts.jpg")} />
+                <img className="pixabay" alt="Curtis Glenn" src={require("../images/choreography.jpg")} />
             </div>
             <div class="col s6">
                 <p id="storyText">
@@ -60,10 +55,12 @@ const About = () =>
             </div>
         </div>
 
+
+        {/* teaching at UNC campus and accomplishments */}
        
         <div class="row">
         <div class="col s6">
-                <img className="picture" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />
+                <img className="pixabay" alt="Curtis Glenn" src={require("../images/karate-two.jpg")} />
             </div>
             <div class="col s6">
                 <p id="storyText">
@@ -77,16 +74,31 @@ const About = () =>
             </div>
         </div>
 
+        {/* more theatrical roles */}
+
         <div class="row">
             <div class="col s6">
-                <img className="picture" alt="Curtis Glenn" src={require("../images/pictureThree.jpg")} />
+                <img className="picture" alt="Curtis Glenn" src={require("../images/pictureTwo.jpg")} />
             </div>
             <div class="col s6">
                 <p id="storyText">
                 Aside from fight choreography, Curtis has performed in several theatrical plays.  Curtis appeared as a “Snake” in THE DIARY OF ADAM AND EVE.  
                 Next, Curtis played a supporting role of “Greaser” in GREASE.  
                 A year later, Curtis showed his versatility by playing several roles in A FUNNY THING HAPPENED ON THE WAY TO THE FORUM (Narrator, soldier, courtsman).  
-                This was followed by a One-Act play called GROWING UP NAKED.  In that same year Curtis landed his second leading role.  
+                This was followed by a One-Act play called GROWING UP NAKED.  In that same year Curtis landed his second leading role. 
+                </p>
+            </div>
+        </div>
+
+
+        {/* serious theatrical roles */}
+
+        <div class="row">
+            <div class="col s6">
+                <img className="picture" alt="Curtis Glenn" src={require("../images/pictureFive.jpg")} />
+            </div>
+            <div class="col s6">
+                <p id="storyText">
                 He was showcased in THE WIZ where he played the role “Scarecrow.”  This success was followed by another lead role in another famous show.  
                 This time the show was GODSPELL where Curtis played the role of “Lamar.”  
                 Theater seems to fit Curtis as he landed a role in SECOND CHANCE followed by his notable role of “Uncle Willie” in TEACH THE YOUNG MAN.  
