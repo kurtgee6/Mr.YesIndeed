@@ -18,6 +18,7 @@
   "homepage": "https://github.com/kurtgee6/Mr.YesIndeed#readme",
   "dependencies": {
     "express": "^4.16.1",
+    "nodemon": "^1.12.1",
     "react-router-dom": "^4.2.2"
   }
 }

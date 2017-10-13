@@ -10,9 +10,9 @@ const Home = () =>
         <div className="container">
         <div className="row">
             <div style={{textAlign: 'center' }}>
-                <p>Good, better, best. Never let it rest. 'Til your good is better and your better is best. </p>
-                <p>Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence. </p>
-                <p>it always seems impossible until it's done</p>
+                <p>" Good, better, best. Never let it rest. 'Til your good is better and your better is best. " </p>
+                <p>" Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence. " </p>
+                <p>" it always seems impossible until it's done " </p>
             </div>
         </div>
         </div>
