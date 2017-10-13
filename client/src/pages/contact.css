@@ -5,3 +5,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.contact-container {
+    text-align: center;
+    padding: 8px;
+}
+
+.btn {
+    margin: 8px;
+    background-color: black;
+}
+
+.btn:hover {
+    margin: 8px;
+    background-color: #484848;
+}
