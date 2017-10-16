@@ -1,25 +1,35 @@
 import React from "react";
+import {Toast} from 'react-materialize'
 import "./contact.css";
 
 const Contact = () =>
   <div>
      <div id="main-picture"></div>
 
-    <div className="contact-container">
 
-      <a id="email" className="btn btn-floating btn-large" > <i className="large material-icons fa fa-envelope" ></i></a>
+        <Toast toast="hello">
+          <i className="large material-icons fa fa-envelope" ></i>
+        </Toast>
 
-      <a id="phone" className="btn btn-floating btn-large" > <i className="large material-icons fa fa-phone" ></i></a>
+        <Toast toast="hello">
+          <i className="large material-icons fa fa-phone" ></i>
+        </Toast>
 
-      <a id="facebook" className="btn btn-floating btn-large" > <i className="large material-icons fa fa-facebook-official" ></i></a>
+        <Toast toast="hello">
+          <i className="large material-icons fa fa-facebook-official"></i>
+        </Toast>
 
-      <a id="youtube" className="btn btn-floating btn-large" > <i className="large material-icons fa fa-youtube-play" ></i></a>
+        <Toast toast="hello">
+         <i className="large material-icons fa fa-youtube-play" ></i>
+        </Toast>
 
-      <a id="linked" className="btn btn-floating btn-large" > <i className="large material-icons fa fa-linkedin-square" ></i></a>
+        <Toast toast="hello">
+          <i className="large material-icons fa fa-linkedin-square" ></i>
+        </Toast>
 
-      <a id="twitter" className="btn btn-floating btn-large" > <i className="large material-icons fa fa-twitter-square" ></i></a>
-
-    </div>
+        <Toast toast="hello">
+          <i className="large material-icons fa fa-twitter-square" ></i>
+        </Toast>
 
   </div>;
 

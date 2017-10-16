@@ -6,10 +6,6 @@
     background-size: cover;
 }
 
-.contact-container {
-    text-align: center;
-    padding: 8px;
-}
 
 .btn {
     margin: 8px;
@@ -19,4 +15,8 @@
 .btn:hover {
     margin: 8px;
     background-color: #484848;
+}
+
+button.btn.toast {
+    float: left;
 }

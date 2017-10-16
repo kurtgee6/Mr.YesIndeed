@@ -6,6 +6,10 @@
     background-size: cover;
 }
 
+footer.page-footer {
+    background-color: #F8F8F8;   
+}
+
 .page-footer, .container, #footerCopyright {
     font-family: 'Josefin Sans', sans-serif;    
     font-size: 18px;
