@@ -9,11 +9,11 @@ const About = () =>
 
         {/* born in japan and intro to his family */}
 
-        <div class="row">
-            <div class="col s6">
+        <div className="row">
+            <div className="col s6">
                 <img className="pixabay" alt="Curtis Glenn" src={require("../images/home-japan-two.jpg")} />
             </div>
-            <div class="col s6">
+            <div className="col s6">
                 <p id="storyText">
                     Curtis Glenn was born in Tachikawa, Japan on October 11, 1971.  
                     His parents are Woodrow and Martha Glenn. When Woodrow completed his time in the military, he moved his family back to North Carolina.  
@@ -24,11 +24,11 @@ const About = () =>
 
         {/* growing up / karate life */}
 
-        <div class="row">
-            <div class="col s6">
+        <div className="row">
+            <div className="col s6">
                 <img className="pixabay" alt="Curtis Glenn" src={require("../images/martial-arts.jpg")} />
             </div>
-            <div class="col s6">
+            <div className="col s6">
                 <p id="storyText">
                     Curtis grew up in Shelby, North Carolina. 
                     His family name became known for it’s Martial Arts background. The whole family (Woodrow, Martha, Jaron, and Curtis) 
@@ -40,11 +40,11 @@ const About = () =>
 
         {/* love life */}
 
-        <div class="row">
-            <div class="col s6">
+        <div className="row">
+            <div className="col s6">
                 <img className="pixabay" alt="Curtis Glenn" src={require("../images/choreography.jpg")} />
             </div>
-            <div class="col s6">
+            <div className="col s6">
                 <p id="storyText">
                     In his teenage years, Curtis began using his skills for fight choreography for several events including the theatrical play THE WIZ.  
                     Those years became sweeter when he fell in love with a young lady name Demeca W. Brewer. Both were accepted at UNC Chapel Hill.  
@@ -58,11 +58,11 @@ const About = () =>
 
         {/* teaching at UNC campus and accomplishments */}
        
-        <div class="row">
-        <div class="col s6">
+        <div className="row">
+        <div className="col s6">
                 <img className="pixabay" alt="Curtis Glenn" src={require("../images/karate-two.jpg")} />
             </div>
-            <div class="col s6">
+            <div className="col s6">
                 <p id="storyText">
                 Sensei Curtis Glenn is a 6th degree Black belt in the MAWJAC Budo Federation and a 3rd degree Black Belt in an old Japanese form called Shi Toh Ryu.  
                 His journey began in 1975.  Curtis received his Black belt in 1980 and his 2nd degree in 1985.  
@@ -76,11 +76,11 @@ const About = () =>
 
         {/* more theatrical roles */}
 
-        <div class="row">
-            <div class="col s6">
+        <div className="row">
+            <div className="col s6">
                 <img className="picture" alt="Curtis Glenn" src={require("../images/pictureTwo.jpg")} />
             </div>
-            <div class="col s6">
+            <div className="col s6">
                 <p id="storyText">
                 Aside from fight choreography, Curtis has performed in several theatrical plays.  Curtis appeared as a “Snake” in THE DIARY OF ADAM AND EVE.  
                 Next, Curtis played a supporting role of “Greaser” in GREASE.  
@@ -93,11 +93,11 @@ const About = () =>
 
         {/* serious theatrical roles */}
 
-        <div class="row">
-            <div class="col s6">
+        <div className="row">
+            <div className="col s6">
                 <img className="picture" alt="Curtis Glenn" src={require("../images/pictureFive.jpg")} />
             </div>
-            <div class="col s6">
+            <div className="col s6">
                 <p id="storyText">
                 He was showcased in THE WIZ where he played the role “Scarecrow.”  This success was followed by another lead role in another famous show.  
                 This time the show was GODSPELL where Curtis played the role of “Lamar.”  
