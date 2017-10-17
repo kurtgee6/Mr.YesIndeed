@@ -47,6 +47,25 @@ export default (props) => {
 
     </div>
 
+    <div className="row">
+
+        <div className="col s6">
+        <h1>Willie B</h1>
+          <Player>
+            <source src={VideoThree} />
+          </Player>
+        </div>
+    
+
+      <div className="col s6">
+      <h1>Willie B</h1>
+          <Player>
+            <source src={VideoFour} />
+          </Player>
+        </div>
+
+    </div>
+
 
     </div>
   );
