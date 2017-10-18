@@ -1,5 +1,6 @@
 import React from 'react';
 import { Player } from 'video-react';
+import {Row, Col} from 'react-materialize'
 import VideoOne from '../movies/movie-1.mp4'
 import VideoTwo from '../movies/movie-2.mp4'
 import VideoThree from '../movies/movie-3.mp4'
@@ -10,61 +11,62 @@ export default (props) => {
   return (
     <div>
 
-      <div className="row">
+      <Row>
 
-        <div className="col s6">
+        <Col s={6}>
         <h1>Willie B</h1>
           <Player>
             <source src={VideoOne} />
           </Player>
-        </div>
+        </Col>
 
-        <div className="col s6">
+        <Col s={6}>
         <h1>Willie B</h1>
           <Player>
             <source src={VideoTwo} />
           </Player>
-        </div>
+        </Col>
 
-      </div>
+      </Row>
 
-    <div className="row">
+      <Row>
 
-        <div className="col s6">
+        <Col s={6}>
         <h1>Willie B</h1>
           <Player>
-            <source src={VideoThree} />
+            <source src={VideoOne} />
           </Player>
-        </div>
-    
+        </Col>
 
-      <div className="col s6">
-      <h1>Willie B</h1>
-          <Player>
-            <source src={VideoFour} />
-          </Player>
-        </div>
-
-    </div>
-
-    <div className="row">
-
-        <div className="col s6">
+        <Col s={6}>
         <h1>Willie B</h1>
           <Player>
-            <source src={VideoThree} />
+            <source src={VideoTwo} />
           </Player>
-        </div>
-    
+        </Col>
 
-      <div className="col s6">
-      <h1>Willie B</h1>
+      </Row>
+
+
+      <Row>
+
+        <Col s={6}>
+        <h1>Willie B</h1>
           <Player>
-            <source src={VideoFour} />
+            <source src={VideoOne} />
           </Player>
-        </div>
+        </Col>
 
-    </div>
+        <Col s={6}>
+        <h1>Willie B</h1>
+          <Player>
+            <source src={VideoTwo} />
+          </Player>
+        </Col>
+
+      </Row>
+
+    
 
 
     </div>

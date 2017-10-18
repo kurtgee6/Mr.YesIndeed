@@ -1,46 +1,49 @@
 import React from "react";
+import {Row, Col} from 'react-materialize'
 import "./production.css";
 
 const Production = () =>
   <div>
 
-    <div className="row">
+    <Row>
      
-      <div className="col s3">
+      <Col s={3}>
         <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
-      </div>
+      </Col>    
 
-      <div className="col s3">
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureTwo.jpg")} />  
-      </div>
-
-      <div className="col s3">
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureFive.jpg")} />  
-      </div>
-
-      <div className="col s3">
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureThree.jpg")} />  
-      </div>
-
-      <div className="col s3">
+      <Col s={3}>
         <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
-      </div>
+      </Col>    
 
-      <div className="col s3">
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureTwo.jpg")} />  
-      </div>
+      <Col s={3}>
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+      </Col>    
 
-      <div className="col s3">
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureFive.jpg")} />  
-      </div>
+      <Col s={3}>
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+      </Col>    
 
-      <div className="col s3">
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureThree.jpg")} />  
-      </div>
+      </Row>
 
-     
+      <Row>
 
-    </div>
+      <Col s={3}>
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+      </Col>    
+
+      <Col s={3}>
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+      </Col>    
+
+      <Col s={3}>
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+      </Col>    
+
+      <Col s={3}>
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+      </Col>    
+
+    </Row>
 
   </div>;
 
