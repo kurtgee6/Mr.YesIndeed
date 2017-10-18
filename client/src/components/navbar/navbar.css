@@ -16,3 +16,9 @@ ul li {
 nav ul li a {
     color: #282828;    
 }
+
+i.material-icons {
+    color: black;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
