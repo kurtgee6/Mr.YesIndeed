@@ -41,7 +41,7 @@ export default (props) => {
         <Col s={6}>
         <h1>Willie B</h1>
           <Player>
-            <source src={VideoTwo} />
+            <source src={VideoThree} />
           </Player>
         </Col>
 
@@ -53,7 +53,7 @@ export default (props) => {
         <Col s={6}>
         <h1>Willie B</h1>
           <Player>
-            <source src={VideoOne} />
+            <source src={VideoFour} />
           </Player>
         </Col>
 

@@ -5,8 +5,10 @@
   "proxy": "http://localhost:3030/",
   "dependencies": {
     "react": "^16.0.0",
+    "react-audioplayer": "^0.3.1",
     "react-dom": "^16.0.0",
     "react-materialize": "^1.0.16",
+    "react-responsive-music-player": "^0.2.2",
     "react-scripts": "1.0.14",
     "react-youtube": "^7.5.0",
     "redux": "^3.7.2",

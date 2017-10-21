@@ -1,37 +1,72 @@
-import React from "react";
+import React, { Component } from 'react'
+import MusicPlayer from 'react-responsive-music-player'
+import {Row, Col} from 'react-materialize'
+import "./voiceovers.css";
 
-const Voiceovers = () =>
-  <div>
-      <h1>This is the Voiceovers page</h1>
+  export default class Voiceovers extends Component {
+    
+    render() {
 
-      <div class="row">
-            <div class="col s6">
-                <img className="pixabay" alt="Curtis Glenn" src={require("../images/home-japan-two.jpg")} />
-            </div>
-            <div class="col s6">
-                <p id="storyText">
-                    Curtis Glenn was born in Tachikawa, Japan on October 11, 1971.  
-                    His parents are Woodrow and Martha Glenn. When Woodrow completed his time in the military, he moved his family back to North Carolina.  
-                    Woodrow was a college professor at Cleveland Community College and Martha was an administrator for Shelby Public Schools.
-                </p>
-            </div>
+        const playlist = [
+            {
+              url: 'http://res.cloudinary.com/dpeud2rab/video/upload/v1508510470/curtis-track1_u0eewh.mp3',
+              cover: 'http://res.cloudinary.com/dpeud2rab/image/upload/v1508510918/pictureTwo_vuk6oh.jpg',
+              title: 'Willy B One',
+              artist: [
+                'Curtis Glenn'
+              ]
+            },
+            {
+              url: 'http://res.cloudinary.com/dpeud2rab/video/upload/v1508510583/curtis-track2_nvoxdd.mp3',
+              cover: 'http://res.cloudinary.com/dpeud2rab/image/upload/v1508510918/pictureTwo_vuk6oh.jpg',
+              title: 'Willy B Two',
+              artist: [
+                'Curtis Glenn'
+              ]
+            },
+            {
+              url: 'http://res.cloudinary.com/dpeud2rab/video/upload/v1508510625/curtis-track3_qx8tui.mp3',
+              cover: 'http://res.cloudinary.com/dpeud2rab/image/upload/v1508510918/pictureTwo_vuk6oh.jpg',
+              title: 'Willy B Three',
+              artist: [
+                'Curtis Glenn'
+              ]
+            },
+            {
+              url: 'http://res.cloudinary.com/dpeud2rab/video/upload/v1508510652/curtis-track4_tl2uje.mp3',
+              cover: 'http://res.cloudinary.com/dpeud2rab/image/upload/v1508510918/pictureTwo_vuk6oh.jpg',
+              title: 'Willy B Four',
+              artist: [
+                'Curtis Glenn'
+              ]
+            },
+            {
+              url: 'http://res.cloudinary.com/dpeud2rab/video/upload/v1508510680/curtis-track5_kyavgc.mp3',
+              cover: 'http://res.cloudinary.com/dpeud2rab/image/upload/v1508510918/pictureTwo_vuk6oh.jpg',
+              title: 'Willy B Five',
+              artist: [
+                'Curtis Glenn'
+              ]
+            },
+            {
+              url: 'http://res.cloudinary.com/dpeud2rab/video/upload/v1508510703/curtis-track6_fd0r4z.mp3',
+              cover: 'http://res.cloudinary.com/dpeud2rab/image/upload/v1508510918/pictureTwo_vuk6oh.jpg',
+              title: 'Willy B Six',
+              artist: [
+                'Curtis Glenn'
+              ]
+            }
+           
+          ]
+
+      return (
+        
+        <div>
+            <center>
+             <MusicPlayer playlist={playlist} />  
+            </center>
         </div>
+      )
+    }
+  }
 
-
-        <div class="row">
-            <div class="col s6">
-                <img className="pixabay" alt="Curtis Glenn" src={require("../images/martial-arts.jpg")} />
-            </div>
-            <div class="col s6">
-                <p id="storyText">
-                    Curtis grew up in Shelby, North Carolina. 
-                    His family name became known for it’s Martial Arts background. The whole family (Woodrow, Martha, Jaron, and Curtis) 
-                    were black belts and skilled in the Japanese form of Shi Toh Ryu and taught as a family.  
-                    Curtis quickly gained fame as he began to sweep throughout Cleveland County winning numerous karate tournaments.  
-                </p>
-            </div>
-        </div>
-
-  </div>;
-
-export default Voiceovers;

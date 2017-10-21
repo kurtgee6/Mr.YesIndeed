@@ -1,4 +1,12 @@
 
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+div.nav-wrapper {
+    font-family: 'Josefin Sans', sans-serif;    
+}
 
 .nav-wrapper {
     background-color: #F8F8F8;
@@ -7,6 +15,7 @@
 
 ul li {
     margin-right: 50px;  
+    font-family: 'Josefin Sans', sans-serif;    
 }
 
 
