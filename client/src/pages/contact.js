@@ -3,12 +3,13 @@ import {Toast} from 'react-materialize'
 import "./contact.css";
 
 const Contact = () =>
-  <div>
+  <div> 
 
-     <div id="main-picture"></div>
+<h5 style={{textAlign:'center'}}>YES INDEED, I'LL BE THERE TO ANSWER</h5>
 
+  <div className="contact-container">
 
-      <div className="button-container">
+      <div  className="button-container">
         <Toast toast="Email: curtisglenn7@gmail.com">
           <i className="large  fa fa-envelope" ></i>
         </Toast>
@@ -51,7 +52,10 @@ const Contact = () =>
             <i className="large fa fa-twitter-square" ></i>
           </Toast>
         </a>
-      </div>  
+      </div>
+
+    </div> 
+
   </div>;
 
 export default Contact;

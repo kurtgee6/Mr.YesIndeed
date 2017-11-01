@@ -63,7 +63,7 @@ const About = () =>
        
         <Row>
             <Col s={6}>
-                <img className="pixabay" alt="Curtis Glenn" src={require("../images/karate-two.jpg")} />
+                <img className="pixabay" alt="Curtis Glenn" src={require("../images/karate-two.jpeg")} />
             </Col>
             <Col s={6}>
                 <p id="storyText">

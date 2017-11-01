@@ -1,15 +1,13 @@
-#main-picture {
-    background-image: url('../images/test-image.jpg');
-    min-height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+
+div.contact-container {
+    margin-top: 4%;
+    margin-left: 10%;  
 }
 
 .btn {
     margin: 8px;
     background-color: black;
-}
+}                   
 
 .btn:hover {
     margin: 8px;
@@ -17,6 +15,26 @@
 }
 
 .button-container{
-    margin: 0;
+    margin: 2%;
     float: left;
 }
+
+button.btn.toast {
+    position: static;
+    width: 100px;
+    margin: 20px;    
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;    
+    padding-top: 30px;    
+}
+
+@media screen and (max-width: 375px) {
+        
+        h5 {
+            font-size: 20px;  
+        }
+        
+    
+    }
