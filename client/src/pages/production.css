@@ -2,3 +2,7 @@
     height: 50%;
     width: 100%;
 }
+
+div.row {
+    padding: 15px;
+}

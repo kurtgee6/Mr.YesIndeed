@@ -12,15 +12,15 @@ const Production = () =>
       </Col>    
 
       <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureTwo.jpg")} />  
       </Col>    
 
       <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureFour.jpg")} />  
       </Col>    
 
       <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureThree.jpg")} />  
       </Col>    
 
       </Row>
@@ -28,20 +28,10 @@ const Production = () =>
       <Row>
 
       <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
+        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureFive.jpg")} />  
       </Col>    
 
-      <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
-      </Col>    
-
-      <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
-      </Col>    
-
-      <Col s={3}>
-        <img className="productionPic" alt="Curtis Glenn" src={require("../images/pictureOne.jpg")} />  
-      </Col>    
+    
 
     </Row>
 

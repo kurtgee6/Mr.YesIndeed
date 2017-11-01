@@ -57,17 +57,7 @@ export default (props) => {
           </Player>
         </Col>
 
-        <Col s={6}>
-        <h1>Willie B</h1>
-          <Player>
-            <source src={VideoTwo} />
-          </Player>
-        </Col>
-
-      </Row>
-
-    
-
+      </Row>    
 
     </div>
   );
