@@ -1,6 +1,7 @@
 import React from 'react';
 import { Player } from 'video-react';
 import {Row, Col} from 'react-materialize';
+import "../../node_modules/video-react/dist/video-react.css";
 import "./acting-out.css";
 
 export default (props) => {
