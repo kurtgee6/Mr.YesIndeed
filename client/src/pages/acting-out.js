@@ -1,10 +1,6 @@
 import React from 'react';
 import { Player } from 'video-react';
-import {Row, Col} from 'react-materialize'
-import VideoOne from '../movies/movie-1.mp4'
-import VideoTwo from '../movies/movie-2.mp4'
-import VideoThree from '../movies/movie-3.mp4'
-import VideoFour from '../movies/movie-4.mp4'
+import {Row, Col} from 'react-materialize';
 import "./acting-out.css";
 
 export default (props) => {
@@ -13,37 +9,38 @@ export default (props) => {
 
       <Row>
 
-        <Col s={6}>
-        <h1>Willie B</h1>
+      <Col s={6}>
+      <h1>Willie B</h1>
           <Player>
-            <source src={VideoOne} />
+            <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582427/movie-1_ammsqh.mp4" />
           </Player>
         </Col>
+  
 
-        <Col s={6}>
-        <h1>Willie B</h1>
-          <Player>
-            <source src={VideoTwo} />
-          </Player>
-        </Col>
+      <Col s={6}>
+      <h1>Willie B</h1>
+        <Player>
+          <source src="http://res.cloudinary.com/dpeud2rab/video/upload/v1509582435/movie-3_btaejz.mp4"/>
+        </Player>
+      </Col>
 
       </Row>
 
       <Row>
 
-        <Col s={6}>
+      <Col s={6}>
         <h1>Willie B</h1>
           <Player>
-            <source src={VideoOne} />
+            <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582338/movie-5_piywit.mp4" />
           </Player>
         </Col>
 
-        <Col s={6}>
-        <h1>Willie B</h1>
-          <Player>
-            <source src={VideoThree} />
-          </Player>
-        </Col>
+      <Col s={6}>
+      <h1>Willie B</h1>
+        <Player>
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582319/movie-4_sycsrq.mp4" />
+        </Player>
+      </Col>
 
       </Row>
 
@@ -52,10 +49,12 @@ export default (props) => {
 
         <Col s={6}>
         <h1>Willie B</h1>
-          <Player>
-            <source src={VideoFour} />
-          </Player>
-        </Col>
+        <Player>
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582431/movie-2_jzxdak.mp4" />
+        </Player>
+      </Col>
+
+    
 
       </Row>    
 
