@@ -20,7 +20,7 @@ export default (props) => {
       <Col s={6}>
       <h1>Willie B</h1>
         <Player>
-          <source src="http://res.cloudinary.com/dpeud2rab/video/upload/v1509582435/movie-3_btaejz.mp4"/>
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582435/movie-3_btaejz.mp4"/>
         </Player>
       </Col>
 
