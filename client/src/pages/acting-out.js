@@ -65,6 +65,19 @@ export default (props) => {
 
       </Row>    
 
+      <Row>
+
+        <Col s={6}>
+        <h1>Willie B Buffalo Wild Wing Challenge</h1>
+        <Player>
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1511190529/The_Adventures_of_Willie_B._Clip_4_Willie_B_Blazin_take_1_n5zsrb.mp4" />
+        </Player>
+      </Col>
+
+    
+
+      </Row>    
+
     </div>
   );
 };
