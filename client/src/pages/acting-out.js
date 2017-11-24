@@ -29,22 +29,22 @@ export default (props) => {
 
       <Row>
 
-      <Col s={6}>
-        <h1>Sad Monologue</h1>
-          <Player>
-            <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582338/movie-5_piywit.mp4" />
-          </Player>
-        </Col>
+        <Col s={6}>
+        <h1>Willie B Buffalo Wild Wing Challenge</h1>
+        <Player>
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1511190529/The_Adventures_of_Willie_B._Clip_4_Willie_B_Blazin_take_1_n5zsrb.mp4" />
+        </Player>
+      </Col>    
 
       <Col s={6}>
-      <h1>Angry Monologue</h1>
+        <h1>Willie B... Vegan?</h1>
         <Player>
-          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582319/movie-4_sycsrq.mp4" />
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1511537291/The_Adventures_of_Willie_B._Clip_5_Willie_B_Vegan_Take_1_bac4ih.mp4" />
         </Player>
       </Col>
 
-      </Row>
 
+      </Row>    
 
       <Row>
 
@@ -65,18 +65,25 @@ export default (props) => {
 
       </Row>    
 
+
       <Row>
 
-        <Col s={6}>
-        <h1>Willie B Buffalo Wild Wing Challenge</h1>
+      <Col s={6}>
+        <h1>Sad Monologue</h1>
+          <Player>
+            <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582338/movie-5_piywit.mp4" />
+          </Player>
+        </Col>
+
+      <Col s={6}>
+      <h1>Angry Monologue</h1>
         <Player>
-          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1511190529/The_Adventures_of_Willie_B._Clip_4_Willie_B_Blazin_take_1_n5zsrb.mp4" />
+          <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1509582319/movie-4_sycsrq.mp4" />
         </Player>
       </Col>
 
-    
+      </Row>
 
-      </Row>    
 
     </div>
   );
