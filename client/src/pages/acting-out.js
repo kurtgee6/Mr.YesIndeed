@@ -84,6 +84,26 @@ export default (props) => {
 
       </Row>
 
+      <Row>
+
+      <Col s={6}>
+        <h1>Willie B President?</h1>
+          <Player>
+            <source src="https://res.cloudinary.com/dpeud2rab/video/upload/v1512652260/The_Adventures_of_Willie_B._Clip_6_Willie_B_President_Take_1_xongb2.mp4" />
+          </Player>
+        </Col>
+
+      <Col s={6}>
+      <h1>Willie B Goes Caroling</h1>
+        <Player>
+          <source src="http://res.cloudinary.com/dpeud2rab/video/upload/v1512652290/The_Adventures_of_Willie_B._Clip_7_Willie_B_Caroling_omlngt.mp4" />
+        </Player>
+      </Col>
+
+      </Row>
+
+      
+
 
     </div>
   );
